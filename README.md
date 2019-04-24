@@ -62,7 +62,10 @@ Random Forest Regression (M4)
 
 ## Results
 
+<img src="images/model_validation_score.png" alt="hi" class="inline"/>
 
+
+<img src="images/model_r2_score.png" alt="hi" class="inline"/>
 
 ## Conclusion   
 
