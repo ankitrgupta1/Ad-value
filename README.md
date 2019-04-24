@@ -4,17 +4,17 @@ AdValue is a project to predict popularity of the Ads using the feature extracte
 
 ## Problem Statement
 
-Creating ads are expensive in money and time
+Creating ads are expensive in money and time. 
 Understanding features which lead to popularity could help tremendously
 
 ## Datasets
 
-Youtube ad videos
-Speech-to-Text 
-Labels Detection
-Twitter data
-Google Trends
-Company website
+Youtube ad videos,  
+Speech-to-Text,  
+Labels Detection, 
+Twitter data, 
+Google Trends, 
+Company website, 
 
 ## Data collection
 
