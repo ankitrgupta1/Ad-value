@@ -1,5 +1,3 @@
-## AdValue
-
 AdValue is a project to predict popularity of the Ads using the feature extracted from the Ads and the website information of the company and products.
 
 ## Problem Statement
@@ -11,10 +9,10 @@ Understanding features which lead to popularity could help tremendously
 
 Youtube ad videos,  
 Speech-to-Text,  
-Labels Detection, 
-Twitter data, 
-Google Trends, 
-Company website, 
+Labels Detection,   
+Twitter data,  
+Google Trends,     
+Company website,   
 
 ## Data collection
 
@@ -28,8 +26,47 @@ We gather and formalize our target value, we collected google trend stats of the
 
 ## Methodology
 
+We use the folowwing methodology:   
+
+Feature Extraction,   
+Feature Selection,  
+Model Selection,  
+Model Training
+
+## Feture Extraction:   
+
+Sources of information:   
+
+Speech-to-text,   
+Video Intelligence,   
+Website contents
+
+Feature extraction from text:   
+
+Filter out words that contain any characters not in the alphabet,   
+Stop Word Removal,  
+Porter Stemmer,   
+Convert to tf-idf features  
+
+Features were extracted for 686 data instances. The number of features exceeds the number of instances and the data is sparse.
+Variance Threshold feature selection was used to reduce the number of features to 201.
+
+## Models   
+
+Regression Models:  
+Lasso Regression (M1),  
+K-nearest Neighbors Regression (M2),  
+Decision Tree Regression (M3),  
+Random Forest Regression (M4)
 
 
 ## Results
 
+
+
+## Conclusion   
+
+The information extracted from advertisements allows for the prediction of how the interest in the company will change in time.   
+Due to limited volume of data, the models’ predictive capabilities were stumped.  
+More nuanced measurements of the viewer engagement would allow for more detailed analysis.
 
